@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="display.h" />
+    <ClInclude Include="numgen.h" />
+    <ClInclude Include="S1.h" />
+    <ClInclude Include="S2.h" />
+    <ClInclude Include="src\fstream.h" />
+    <ClInclude Include="src\iostream.h" />
+    <ClInclude Include="src\numeric_bit\fx\fx.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_ieee.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_mant.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_other_defs.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_params.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_pow10.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_rep.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_string.h" />
+    <ClInclude Include="src\numeric_bit\fx\scfx_utils.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_context.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fix.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fixed.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fxcast_switch.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fxdefs.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fxnum.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fxnum_bitref.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fxnum_subref.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fxtype_params.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_fxval.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_report.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_report_handler.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_ufix.h" />
+    <ClInclude Include="src\numeric_bit\fx\sc_ufixed.h" />
+    <ClInclude Include="src\numeric_bit\numeric_bit.h" />
+    <ClInclude Include="src\numeric_bit\sc_bigint.h" />
+    <ClInclude Include="src\numeric_bit\sc_biguint.h" />
+    <ClInclude Include="src\numeric_bit\sc_int.h" />
+    <ClInclude Include="src\numeric_bit\sc_int32.h" />
+    <ClInclude Include="src\numeric_bit\sc_int32_defs.h" />
+    <ClInclude Include="src\numeric_bit\sc_int_defs.h" />
+    <ClInclude Include="src\numeric_bit\sc_nbdefs.h" />
+    <ClInclude Include="src\numeric_bit\sc_nbexterns.h" />
+    <ClInclude Include="src\numeric_bit\sc_nbutils.h" />
+    <ClInclude Include="src\numeric_bit\sc_nbwrite.h" />
+    <ClInclude Include="src\numeric_bit\sc_signed.h" />
+    <ClInclude Include="src\numeric_bit\sc_uint.h" />
+    <ClInclude Include="src\numeric_bit\sc_uint32.h" />
+    <ClInclude Include="src\numeric_bit\sc_uint32_defs.h" />
+    <ClInclude Include="src\numeric_bit\sc_uint_defs.h" />
+    <ClInclude Include="src\numeric_bit\sc_unsigned.h" />
+    <ClInclude Include="src\sc_2d.h" />
+    <ClInclude Include="src\sc_aproc.h" />
+    <ClInclude Include="src\sc_array.h" />
+    <ClInclude Include="src\sc_array_concat.h" />
+    <ClInclude Include="src\sc_async.h" />
+    <ClInclude Include="src\sc_bit.h" />
+    <ClInclude Include="src\sc_bool_vector.h" />
+    <ClInclude Include="src\sc_bv.h" />
+    <ClInclude Include="src\sc_bvrep.h" />
+    <ClInclude Include="src\sc_channel.h" />
+    <ClInclude Include="src\sc_channel_array.h" />
+    <ClInclude Include="src\sc_clock.h" />
+    <ClInclude Include="src\sc_clock_int.h" />
+    <ClInclude Include="src\sc_cmnhdr.h" />
+    <ClInclude Include="src\sc_constants.h" />
+    <ClInclude Include="src\sc_context_switch.h" />
+    <ClInclude Include="src\sc_dump.h" />
+    <ClInclude Include="src\sc_err_handler.h" />
+    <ClInclude Include="src\sc_except.h" />
+    <ClInclude Include="src\sc_exception.h" />
+    <ClInclude Include="src\sc_externs.h" />
+    <ClInclude Include="src\sc_hash.h" />
+    <ClInclude Include="src\sc_helpers.h" />
+    <ClInclude Include="src\sc_isdb_trace.h" />
+    <ClInclude Include="src\sc_lambda.h" />
+    <ClInclude Include="src\sc_list.h" />
+    <ClInclude Include="src\sc_logic.h" />
+    <ClInclude Include="src\sc_logic_vector.h" />
+    <ClInclude Include="src\sc_lv.h" />
+    <ClInclude Include="src\sc_macros.h" />
+    <ClInclude Include="src\sc_macros_int.h" />
+    <ClInclude Include="src\sc_measure.h" />
+    <ClInclude Include="src\sc_mempool.h" />
+    <ClInclude Include="src\sc_module.h" />
+    <ClInclude Include="src\sc_module_int.h" />
+    <ClInclude Include="src\sc_module_name.h" />
+    <ClInclude Include="src\sc_module_prm.h" />
+    <ClInclude Include="src\sc_object.h" />
+    <ClInclude Include="src\sc_object_manager.h" />
+    <ClInclude Include="src\sc_old.h" />
+    <ClInclude Include="src\sc_polarity.h" />
+    <ClInclude Include="src\sc_port.h" />
+    <ClInclude Include="src\sc_port_clk.h" />
+    <ClInclude Include="src\sc_port_manager.h" />
+    <ClInclude Include="src\sc_port_sc_bit.h" />
+    <ClInclude Include="src\sc_pq.h" />
+    <ClInclude Include="src\sc_process.h" />
+    <ClInclude Include="src\sc_process_int.h" />
+    <ClInclude Include="src\sc_ptr.h" />
+    <ClInclude Include="src\sc_reslv.h" />
+    <ClInclude Include="src\sc_reslv_vector.h" />
+    <ClInclude Include="src\sc_resolved.h" />
+    <ClInclude Include="src\sc_resolved_array.h" />
+    <ClInclude Include="src\sc_sensitive.h" />
+    <ClInclude Include="src\sc_signal.h" />
+    <ClInclude Include="src\sc_signal_array.h" />
+    <ClInclude Include="src\sc_signal_delay.h" />
+    <ClInclude Include="src\sc_signal_deval.h" />
+    <ClInclude Include="src\sc_signal_optimize.h" />
+    <ClInclude Include="src\sc_signal_rv.h" />
+    <ClInclude Include="src\sc_signal_sc_bit.h" />
+    <ClInclude Include="src\sc_simcontext.h" />
+    <ClInclude Include="src\sc_simcontext_int.h" />
+    <ClInclude Include="src\sc_stl.h" />
+    <ClInclude Include="src\sc_string.h" />
+    <ClInclude Include="src\sc_sync.h" />
+    <ClInclude Include="src\sc_templ.h" />
+    <ClInclude Include="src\sc_trace.h" />
+    <ClInclude Include="src\sc_vcd_trace.h" />
+    <ClInclude Include="src\sc_vector.h" />
+    <ClInclude Include="src\sc_ver.h" />
+    <ClInclude Include="src\sc_wait.h" />
+    <ClInclude Include="src\sc_wif_trace.h" />
+    <ClInclude Include="src\sc_write_macros.h" />
+    <ClInclude Include="src\systemc.h" />
+    <ClInclude Include="stage1.h" />
+    <ClInclude Include="stage2.h" />
+    <ClInclude Include="stage3.h" />
+    <ClInclude Include="TestModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="numgen.cpp" />
+    <ClCompile Include="S1.cpp" />
+    <ClCompile Include="S2.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\scfx_mant.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\scfx_pow10.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\scfx_rep.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\scfx_utils.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fix.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fxcast_switch.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fxdefs.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fxnum.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fxnum_bitref.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fxnum_subref.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fxtype_params.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_fxval.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_report.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_report_handler.cpp" />
+    <ClCompile Include="src\numeric_bit\fx\sc_ufix.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_int32_mask.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_int64_io.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_int64_mask.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_nbassign.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_nbexterns.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_nbutils.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_nbwrite.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_signed.cpp" />
+    <ClCompile Include="src\numeric_bit\sc_unsigned.cpp" />
+    <ClCompile Include="src\sc_aproc.cpp" />
+    <ClCompile Include="src\sc_aproc_process.cpp" />
+    <ClCompile Include="src\sc_array.cpp" />
+    <ClCompile Include="src\sc_array_concat.cpp" />
+    <ClCompile Include="src\sc_async.cpp" />
+    <ClCompile Include="src\sc_async_process.cpp" />
+    <ClCompile Include="src\sc_bit.cpp" />
+    <ClCompile Include="src\sc_bool_vector.cpp" />
+    <ClCompile Include="src\sc_bv.cpp" />
+    <ClCompile Include="src\sc_channel_array.cpp" />
+    <ClCompile Include="src\sc_clock.cpp" />
+    <ClCompile Include="src\sc_context_switch.cpp" />
+    <ClCompile Include="src\sc_dump.cpp" />
+    <ClCompile Include="src\sc_err_handler.cpp" />
+    <ClCompile Include="src\sc_exception.cpp" />
+    <ClCompile Include="src\sc_hash.cpp" />
+    <ClCompile Include="src\sc_lambda.cpp" />
+    <ClCompile Include="src\sc_list.cpp" />
+    <ClCompile Include="src\sc_logic.cpp" />
+    <ClCompile Include="src\sc_logic_vector.cpp" />
+    <ClCompile Include="src\sc_lv.cpp" />
+    <ClCompile Include="src\sc_main.cpp" />
+    <ClCompile Include="src\sc_measure.cpp" />
+    <ClCompile Include="src\sc_mempool.cpp" />
+    <ClCompile Include="src\sc_module.cpp" />
+    <ClCompile Include="src\sc_module_name.cpp" />
+    <ClCompile Include="src\sc_module_prm.cpp" />
+    <ClCompile Include="src\sc_object.cpp" />
+    <ClCompile Include="src\sc_object_manager.cpp" />
+    <ClCompile Include="src\sc_port.cpp" />
+    <ClCompile Include="src\sc_port_manager.cpp" />
+    <ClCompile Include="src\sc_pq.cpp" />
+    <ClCompile Include="src\sc_reslv.cpp" />
+    <ClCompile Include="src\sc_reslv_vector.cpp" />
+    <ClCompile Include="src\sc_sensitive.cpp" />
+    <ClCompile Include="src\sc_signal.cpp" />
+    <ClCompile Include="src\sc_signal_array.cpp" />
+    <ClCompile Include="src\sc_signal_edgy.cpp" />
+    <ClCompile Include="src\sc_signal_optimize.cpp" />
+    <ClCompile Include="src\sc_signal_rv.cpp" />
+    <ClCompile Include="src\sc_simcontext.cpp" />
+    <ClCompile Include="src\sc_string.cpp" />
+    <ClCompile Include="src\sc_sync_noopt.cpp" />
+    <ClCompile Include="src\sc_sync_opt.cpp" />
+    <ClCompile Include="src\sc_sync_process.cpp" />
+    <ClCompile Include="src\sc_trace.cpp" />
+    <ClCompile Include="src\sc_vcd_trace.cpp" />
+    <ClCompile Include="src\sc_vector.cpp" />
+    <ClCompile Include="src\sc_ver.cpp" />
+    <ClCompile Include="src\sc_wait.cpp" />
+    <ClCompile Include="src\sc_wif_trace.cpp" />
+    <ClCompile Include="stage1.cpp" />
+    <ClCompile Include="stage2.cpp" />
+    <ClCompile Include="stage3.cpp" />
+    <ClCompile Include="TestModule.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A766F8C1-FB93-42AC-A286-4E75856935D1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>lav</RootNamespace>
+    <ProjectName>lab1-4</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

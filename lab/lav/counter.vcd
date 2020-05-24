@@ -1,0 +1,108 @@
+$date
+     May 24, 2020       16:21:53
+$end
+
+$version
+                SystemC (TM) Version 1.0  --- May 24 2020 16:21:41
+                                  ALL RIGHTS RESERVED
+$end
+
+$timescale
+     1 s
+$end
+
+$scope module SystemC $end
+$var real    1  aaa  diff       $end
+$var real    1  aab  prod       $end
+$var real    1  aac  quot       $end
+$var real    1  aad  powr       $end
+$var real    1  aae  lab2_out1       $end
+$var real    1  aaf  lab2_out2       $end
+$var wire    1  aag  clk       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+r0 aaa
+r0 aab
+r0 aac
+r1 aad
+r0 aae
+r-1 aaf
+1aag
+$end
+
+#0
+0aag
+
+#1
+r1 aaa
+r-149 aae
+r148 aaf
+1aag
+
+#2
+0aag
+
+#3
+r-297 aaa
+r-1 aab
+r-1 aac
+1aag
+
+#4
+0aag
+
+#5
+r297 aab
+r0.003367003367003367 aac
+r-1 aad
+1aag
+
+#6
+0aag
+
+#7
+r1.01935575528791 aad
+1aag
+
+#8
+0aag
+
+#9
+1aag
+
+#10
+0aag
+
+#11
+1aag
+
+#12
+0aag
+
+#13
+1aag
+
+#14
+0aag
+
+#15
+1aag
+
+#16
+0aag
+
+#17
+1aag
+
+#18
+0aag
+
+#19
+1aag
+

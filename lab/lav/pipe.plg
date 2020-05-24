@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pipe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ki-3\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "src" /I "src\numeric_bit" /I "src\numeric_bit\fx" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/pipe.pch" /YX"pipe" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\HOME\KI-3\KS\KS\LAB\pipe\display.cpp"
+"D:\HOME\KI-3\KS\KS\LAB\pipe\main.cpp"
+"D:\HOME\KI-3\KS\KS\LAB\pipe\numgen.cpp"
+"D:\HOME\KI-3\KS\KS\LAB\pipe\stage1.cpp"
+"D:\HOME\KI-3\KS\KS\LAB\pipe\stage2.cpp"
+"D:\HOME\KI-3\KS\KS\LAB\pipe\stage3.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\ki-3\LOCALS~1\Temp\RSP6.tmp"" 
+Creating temporary file "C:\DOCUME~1\ki-3\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/pipe.pdb" /debug /machine:I386 /nodefaultlib:"libc.lib" /out:"Debug/pipe.exe" /pdbtype:sept 
+".\Debug\display.obj"
+".\Debug\main.obj"
+".\Debug\numgen.obj"
+".\Debug\stage1.obj"
+".\Debug\stage2.obj"
+".\Debug\stage3.obj"
+".\VC6\Release\numeric_bit.lib"
+".\VC6\Release\systemc.lib"
+]
+Creating command line "link.exe @"C:\DOCUME~1\ki-3\LOCALS~1\Temp\RSP7.tmp""
+<h3>Output Window</h3>
+Compiling...
+display.cpp
+main.cpp
+numgen.cpp
+stage1.cpp
+stage2.cpp
+stage3.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+pipe.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
